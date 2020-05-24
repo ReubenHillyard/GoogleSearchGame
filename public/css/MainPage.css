@@ -1,0 +1,60 @@
+body {
+	background-color: lightgreen;
+	overscroll-behavior-y: none;
+}
+
+div {border-radius: 10px;}
+
+#title {
+	color:white;
+	text-align:center;
+	text-decoration: underline;
+}
+
+.sometext {
+	padding:25px;
+	margin:auto;
+	font-size: 1em!important;
+}
+
+#nav {
+	overflow: hidden;
+	background-color: seagreen;
+	position: relative;
+	top:0;
+}
+
+#nav ul {
+	list-style-type: none;
+}
+
+#nav li {
+	float: left;
+	margin: 0 5px 15px;
+}
+
+#nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition-duration: 0.4s;
+	border-radius: 6px;
+}
+
+#nav li a:hover {
+	background-color:cornflowerblue;
+}
+
+#logo:hover {
+    background-color: unset!important;
+}
+
+#logo img {
+	width:100px;
+	height:auto;
+	border-radius:10px;
+}
